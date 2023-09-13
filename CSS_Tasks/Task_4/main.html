@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 CSS</title>
+    <style>
+        div {
+            display: grid;
+            margin-top: 40px;
+        }
+
+        a {
+            padding: 30px;
+            width: 40px;
+            border: 10px solid white;
+            border-radius: 20px;
+            margin-left: -100px;
+        }
+
+        a:hover {
+            margin-left: -40px;
+        }
+
+        h1 {
+            position: absolute;
+            display: inline-block;
+            right: 500px;
+            top: 80px;
+        }
+
+        p {
+            position: absolute;
+            display: inline-block;
+            right: 500px;
+            top: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hoverable Sidenav buttons</h1>
+    <p>Hover over the button in left side navigation to open them</p>
+    <div>
+        <a style="background-color: rgb(20, 212, 81); color: white;" href="#">HTML</a>
+        <a style="background-color: turquoise; color: white;" href="#">CSS</a>
+        <a style="background-color: red; color: white;" href="#">C++</a>
+        <a style="background-color: grey; color: white;" href="#">MERN</a>
+    </div>
+</body>
+
+</html>

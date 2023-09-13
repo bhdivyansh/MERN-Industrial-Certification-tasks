@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical nav bar</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #acd8e5;
+
+        }
+
+        li {
+            float: bottom;
+
+        }
+
+        li a {
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #fda410;
+            color: white;
+        }
+
+        li .active {
+            background-color: #fda410;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#Html">HTML</a></li>
+        <li><a href="#Css">CSS</a></li>
+    </ul>
+</body>
+
+</html>
